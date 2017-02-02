@@ -21,3 +21,6 @@ If you have your own idea great! Click "New Issue" and give your game a title an
 ### Game Idea Tips
 
 See [game-design-tips](game-design-tips/).
+
+Here is the powerpoint that was shown in the meeting:
+https://docs.google.com/a/mst.edu/presentation/d/15BQm4Zq5Ew-PxRaQGJ1vcb34pYZIZDfiSDLFA2nwz0g/edit?usp=sharing
