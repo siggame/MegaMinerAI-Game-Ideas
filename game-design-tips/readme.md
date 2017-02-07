@@ -16,6 +16,7 @@ Mostly written by Goldman and Wallace
 - No choice should be best in all situations, and all choices should be best in at least one situation.
 - [Rock paper scissors is your friend.](rock-paper-scissors.md)  Just remember that good rock should beat bad paper.
 - [A player should always be able to determine the exact outcome of taking an action](deterministic-decisions.md).
+- [Simultanous player turns is more complex than you think](simultanous-turns.md).
 - Never put the competitor in a situation where they must dump all their code to improve.
 - Pure random is bad, pure static is boring, good procedural is worth developing.
 - A team should be able to write a useful AI within 30 minutes of hearing the game logic.  After competition is over they should curse themselves for not thinking of something for the next week.
