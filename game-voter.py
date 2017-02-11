@@ -2,12 +2,22 @@
 # http://www.cs.wustl.edu/~legrand/rbvote/calc.html
 
 import csv
+import re
+import argparse
+
+argparser = argparse.ArgumentParser(
+    description='Runs the game voter algorithm'
+)
+
+argparser.add_argument('input', nargs='?', action='store', help='the input file', default='data.csv')
+args = argparser.parse_args()
 
 games = []
 first = True
 ignore_columns = 2
+regex = re.compile('[^a-zA-Z]')
 
-with open("data.csv", "r") as csvfile:
+with open(args.input, 'r') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
         ballot = None
@@ -22,6 +32,7 @@ with open("data.csv", "r") as csvfile:
 
             if first:  # first column, which is the games
                 game = col[col.find("[") + 1:col.find("]")]
+                game = regex.sub('', game)
                 games.append(game)
             else:  # it's a ballot
                 place = int(col[:-2]) - 1  # "1st" -> 0, , "2nd" -> 1, and so on
