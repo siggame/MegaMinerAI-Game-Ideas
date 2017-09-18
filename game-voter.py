@@ -35,8 +35,10 @@ with open(args.input, 'r') as csvfile:
                 game = regex.sub('', game)
                 games.append(game)
             else:  # it's a ballot
-                place = int(col[:-2]) - 1  # "1st" -> 0, , "2nd" -> 1, and so on
-                ballot[place].append(games[j - ignore_columns])
+                without_end = col[:-2]
+                if without_end:  # then there is a number chosen (not empty string)
+                    place = int(without_end) - 1  # "1st" -> 0, , "2nd" -> 1, and so on
+                    ballot[place].append(games[j - ignore_columns])
 
         if ballot:
             formatted = []
