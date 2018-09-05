@@ -4,11 +4,9 @@ Game Ideas for each semester's MegaMinerAI
 
 ## How to use
 
-If you are reading this, there is good news, and there is and bad news.
+If you are reading this, there is good news.
 
 The good news is you are in the right place to submit and look at game ideas.
-
-The bad news is you have been spoiled. You cannot compete for prizes in this semester's MegaMinerAI competition.
 
 We use GitHub issues to track game ideas. It's like a forum really. If you've never used GitHub, you'll learn and it looks good on a resume.
 
