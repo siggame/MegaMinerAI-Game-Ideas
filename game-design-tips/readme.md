@@ -28,4 +28,4 @@ Mostly written by Goldman and Wallace
 - Pathing is hard, bashing is easy. [If a wall can be ignored or destroyed, it will be.](soft-walls-get-ignored.md)
 - [Strategy Out is better than Strategy Up.](strategy-out.md)
 - If there is a part of the game that can be ignored, then it shouldn't be there.
-- [bottlenecks in victory point production are dangerous](victory-bottlenecks.md)
+- [bottlenecks in victory point production is dangerous](victory-bottlenecks.md)
